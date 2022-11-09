@@ -1,5 +1,6 @@
 html{
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
 }
 
 :root{
@@ -230,6 +231,12 @@ h3{
 
 .contact-space{
     background-color: var(--lightBleu);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   padding: 1rem;
+
 }
 .contact-space-link{
     height: 6rem;
@@ -240,7 +247,13 @@ h3{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin: 0 2.3rem;
+}
 
+@media (min-width: 480px){
+    .contact-space-link{
+        margin: 0 5rem;
+    }
 }
 
 #Linkedin{
