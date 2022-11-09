@@ -1,6 +1,5 @@
 html{
     box-sizing: border-box;
-    scroll-snap-type: y mandatory;
 }
 
 :root{
@@ -282,13 +281,12 @@ h3{
 }
 
 .formularie legend{
-    text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
     font-weight: 700;
     margin-bottom: 2rem;
     color: var(--secundariColor);
-    
+    text-align: center;
 }
 
 @media (min-width: 768px){
@@ -314,10 +312,6 @@ h3{
     margin-bottom: 2rem;
 }
 
-.field legend{
-    display: flex;
-    justify-content: center;
-}
 
 .field textarea{
     height: 20rem;
