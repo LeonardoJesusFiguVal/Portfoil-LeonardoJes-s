@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/Styles.css">
+    <!--Metadata-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Style and Fonts-->
+    <link rel="stylesheet" href="./resources/css/normalize.css">
+    <link rel="stylesheet" href="./resources/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
 
+    <!--Title-->
     <title>Leonardo Figueroa Valdivia Portfolio</title>
 </head>
 <body>
-    <header class="nav container">
-        <h1>LeonardoJ <span>dev</span></h1>
-        <div class="nav-links">
-            <a href="./index.html">Home</a>
-            <a href="./about-me.html">About Me</a>
-            <a href="./laboral-experience.html">Laboral experience</a>
-            <a href="./skills.html">Skills</a>
-            <a href="./proyects.html">Proyects</a>
-            <a href="./contact.html">Contact</a>
+    <header class="nav wrapper">
+        <div class="nav__display">
+            <a href="./index.html" class="nav__title"><h1>LeonardoJ <span>dev</span></h1></a>
+            
+            <div class="nav__hamburger">
+                <span class="nav__hamburger__bar1"></span>
+                <span class="nav__hamburger__bar2"></span>
+                <span class="nav__hamburger__bar3"></span>
+            </div>        
+    
+            <div class="nav__links">
+                <a href="./index.html" class="nav__links__link">Home</a>
+                <a href="./about-me.html" class="nav__links__link">About Me</a>
+                <a href="./proyects.html" class="nav__links__link">Proyects</a>
+                <a href="./laboral-experience.html" class="nav__links__link">Laboral experience</a>
+                <a href="./skills.html" class="nav__links__link">Skills</a>
+                <a href="./contact.html" class="nav__links__link">Contact</a>
+            </div>
         </div>
     </header>
-
-    <main>
-        <h2 class="generic-list">Laboral experience</h2>
-        <ul class="generic-list">
-            <li>There's no laboral experience at the moment.</li>
-            
+    <main class="skills-experiences">
+        <h2>Laboral experience</h2>
+        <ul>
+            <li><p>There's no laboral experience at the moment.</p></li>
         </ul>
     </main>
+    <script src="./resources/js/nav-menu.js"></script>
 </body>
 </html>

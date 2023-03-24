@@ -1,0 +1,35 @@
+{
+    "proyects":[
+        {
+            "name": "Proyecto Freelancer",
+            "link": "https://github.com/LeonardoJesusFiguVal/damProyectofrelancer",
+            "image": "./resources/img/proyecto-freelancer-sample.png",
+            "alt": "Proyecto Freelancer"
+        },
+        {
+            "name": "Price Grid Component",
+            "link": "https://github.com/LeonardoJesusFiguVal/Price-grid-component",
+            "image": "./resources/img/price-grid-component.png",
+            "alt": "Price Grid Component"
+        },
+        {
+            "name": "Social proof section",
+            "link": "https://github.com/LeonardoJesusFiguVal/social-proof-section-master",
+            "image": "./resources/img/social-proof-section-master.png",
+            "alt": "Social proof section master"
+        },
+        {
+            "name": "Four card feature section",
+            "link": "https://github.com/LeonardoJesusFiguVal/four-card-feature-section-master",
+            "image": "./resources/img/four-card-feature-section-master.png",
+            "alt": "Four card feature section"
+        },
+        {
+            "name": "Fylo dark theme",
+            "link": "https://github.com/LeonardoJesusFiguVal/Trabajo-Examen-LND-Final",
+            "image": "./resources/img/fylo-dark-theme.png",
+            "alt": "Fylo dark theme"
+        }
+        
+    ]
+}
